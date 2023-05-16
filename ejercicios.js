@@ -12,9 +12,9 @@ Debes obtener los siguientes resultados:
 "boolean"
 */
 
-function solution(valor) {s
-    solution(1)
-    solution("Dieguillo")
-    solution(true)
+function solution(valor) {
     return typeof valor;
 }
+solution(1)
+solution("Dieguillo")
+solution(true)
