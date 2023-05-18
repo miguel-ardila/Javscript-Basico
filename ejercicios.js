@@ -18,3 +18,11 @@ function solution(valor) {
 solution(1)
 solution("Dieguillo")
 solution(true)
+
+//ejemplo scope global y local
+var nombre = "Miguel"; //scope global
+function nombre() { //scope local
+    var apellido = "Ardila";
+    console.log(nombre + " " + apellido);
+}
+nombre(); //Miguel Ardila resultado por consola.
